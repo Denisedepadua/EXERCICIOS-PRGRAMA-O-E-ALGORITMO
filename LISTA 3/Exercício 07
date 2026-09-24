@@ -1,0 +1,17 @@
+algoritmo "lista03_ex07"
+
+var
+   N1, N2, N3, Resultado: inteiro
+
+inicio
+   leia(N1)
+   leia(N2)
+   leia(N3)
+
+   Resultado <- N1 + N2 + N3
+
+   se Resultado > 20 entao
+      escreva(Resultado)
+   fimse
+
+fimalgoritmo
