@@ -1,0 +1,18 @@
+algoritmo "lista02_ex06"
+
+var
+   N1, N2, Resultado1, Resultado2, Resultado: inteiro
+
+inicio
+   leia(N1)
+   Resultado1 <- N1 - 3
+
+   leia(N2)
+   Resultado2 <- N2 + 2
+
+   Resultado <- Resultado1 + Resultado2
+   Resultado <- Resultado - 1
+
+   escreva(Resultado)
+
+fimalgoritmo
