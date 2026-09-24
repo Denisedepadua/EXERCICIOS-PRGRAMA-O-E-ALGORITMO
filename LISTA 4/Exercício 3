@@ -1,0 +1,15 @@
+algoritmo "lista04_ex03"
+
+var
+   N: inteiro
+
+inicio
+   leia(N)
+
+   se N > 10 entao
+      escreva("Numero maior que dez")
+   senao
+      escreva("Numero menor ou igual a dez")
+   fimse
+
+fimalgoritmo
