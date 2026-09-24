@@ -1,0 +1,14 @@
+algoritmo "lista06_ex04"
+
+var
+   N, I, Resultado: inteiro
+
+inicio
+   leia(N)
+
+   para I de 0 ate 10 faca
+      Resultado <- N * I
+      escreva(Resultado)
+   fimpara
+
+fimalgoritmo
