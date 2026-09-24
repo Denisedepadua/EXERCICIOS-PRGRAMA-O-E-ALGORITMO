@@ -1,0 +1,15 @@
+algoritmo "lista03_ex03"
+
+var
+   N, Resultado: inteiro
+
+inicio
+   leia(N)
+
+   Resultado <- N - 10
+
+   se Resultado > 3 entao
+      escreva(Resultado)
+   fimse
+
+fimalgoritmo
