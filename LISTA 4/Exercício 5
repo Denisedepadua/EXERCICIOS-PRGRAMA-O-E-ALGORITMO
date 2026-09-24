@@ -1,0 +1,25 @@
+algoritmo "lista04_ex05"
+
+var
+   N1, N2, N3, Menor: inteiro
+
+inicio
+   leia(N1)
+   leia(N2)
+   leia(N3)
+
+   Menor <- N1
+
+   se N2 < Menor entao
+      Menor <- N2
+   fimse
+
+   se N3 < Menor entao
+      Menor <- N3
+   fimse
+
+   Menor <- Menor + 5
+
+   escreva(Menor)
+
+fimalgoritmo
