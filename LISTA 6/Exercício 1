@@ -1,0 +1,11 @@
+algoritmo "lista06_ex01"
+
+var
+   I: inteiro
+
+inicio
+   para I de 1 ate 20 faca
+      escreva(I)
+   fimpara
+
+fimalgoritmo
