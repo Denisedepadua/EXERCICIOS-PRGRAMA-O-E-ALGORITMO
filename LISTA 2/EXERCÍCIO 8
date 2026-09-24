@@ -1,0 +1,19 @@
+algoritmo "lista02_ex08"
+
+var
+   NUM1, NUM2, NUM3, Resultado1, Resultado2, Resultado3: inteiro
+
+inicio
+   leia(NUM1)
+   leia(NUM2)
+   leia(NUM3)
+
+   Resultado1 <- NUM1 + 10
+   Resultado2 <- NUM2 - 5
+   Resultado3 <- NUM3 * 2
+
+   escreva(Resultado1)
+   escreva(Resultado2)
+   escreva(Resultado3)
+
+fimalgoritmo
