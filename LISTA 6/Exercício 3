@@ -1,0 +1,14 @@
+algoritmo "lista06_ex03"
+
+var
+   N1, N2, I: inteiro
+
+inicio
+   leia(N1)
+   leia(N2)
+
+   para I de N1 ate N2 faca
+      escreva(I)
+   fimpara
+
+fimalgoritmo
