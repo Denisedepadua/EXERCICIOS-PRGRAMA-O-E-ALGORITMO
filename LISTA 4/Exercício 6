@@ -1,0 +1,18 @@
+algoritmo "lista04_ex06"
+
+var
+   N1, N2: inteiro
+
+inicio
+   leia(N1)
+   leia(N2)
+
+   se N1 < N2 entao
+      escreva(N1)
+      escreva(N2)
+   senao
+      escreva(N2)
+      escreva(N1)
+   fimse
+
+fimalgoritmo
