@@ -1,0 +1,38 @@
+algoritmo "lista06_ex05"
+
+var
+   N1, N2, N3, Maior, SegundoMaior, I: inteiro
+
+inicio
+   leia(N1)
+   leia(N2)
+   leia(N3)
+
+   Maior <- N1
+   SegundoMaior <- N1
+
+   se N2 > Maior entao
+      Maior <- N2
+   fimse
+
+   se N3 > Maior entao
+      Maior <- N3
+   fimse
+
+   se N1 < Maior entao
+      SegundoMaior <- N1
+   fimse
+
+   se (N2 < Maior) e (N2 > SegundoMaior) entao
+      SegundoMaior <- N2
+   fimse
+
+   se (N3 < Maior) e (N3 > SegundoMaior) entao
+      SegundoMaior <- N3
+   fimse
+
+   para I de SegundoMaior ate Maior faca
+      escreva(I)
+   fimpara
+
+fimalgoritmo
