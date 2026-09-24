@@ -1,0 +1,12 @@
+algoritmo "lista02_ex02"
+
+var
+   N, Resultado: inteiro
+
+inicio
+   leia(N)
+   Resultado <- N - 3
+   Resultado <- Resultado * 2
+   escreva(Resultado)
+
+fimalgoritmo
