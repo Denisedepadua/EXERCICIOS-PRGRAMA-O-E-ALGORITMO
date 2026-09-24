@@ -1,0 +1,15 @@
+algoritmo "lista03_ex06"
+
+var
+   N, Resultado: inteiro
+
+inicio
+   leia(N)
+
+   Resultado <- N * 3
+
+   se Resultado > 15 entao
+      escreva(Resultado)
+   fimse
+
+fimalgoritmo
