@@ -1,0 +1,27 @@
+algoritmo "lista03_ex04"
+
+var
+   N1, N2, N3, R1, R2, R3: inteiro
+
+inicio
+   leia(N1)
+   leia(N2)
+   leia(N3)
+
+   R1 <- N1 + 5
+   R2 <- N2 + 5
+   R3 <- N3 + 5
+
+   se R1 > 10 entao
+      escreva(R1)
+   fimse
+
+   se R2 > 10 entao
+      escreva(R2)
+   fimse
+
+   se R3 > 10 entao
+      escreva(R3)
+   fimse
+
+fimalgoritmo
