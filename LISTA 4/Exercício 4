@@ -1,0 +1,23 @@
+algoritmo "lista04_ex04"
+
+var
+   N1, N2, N3, Maior: inteiro
+
+inicio
+   leia(N1)
+   leia(N2)
+   leia(N3)
+
+   Maior <- N1
+
+   se N2 > Maior entao
+      Maior <- N2
+   fimse
+
+   se N3 > Maior entao
+      Maior <- N3
+   fimse
+
+   escreva(Maior)
+
+fimalgoritmo
