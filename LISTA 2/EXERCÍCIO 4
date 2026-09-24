@@ -1,0 +1,16 @@
+algoritmo "lista02_ex04"
+
+var
+   N1, N2, Resultado1, Resultado2: real
+
+inicio
+   leia(N1)
+   Resultado1 <- N1 + 10
+
+   leia(N2)
+   Resultado2 <- N2 / 2
+
+   escreva(Resultado1)
+   escreva(Resultado2)
+
+fimalgoritmo
