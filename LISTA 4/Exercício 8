@@ -1,0 +1,19 @@
+algoritmo "lista04_ex08"
+
+var
+   N, Resultado: inteiro
+
+inicio
+   leia(N)
+
+   se N > 10 entao
+      Resultado <- N + 5
+   senao
+      Resultado <- N + 20
+   fimse
+
+   se Resultado > 25 entao
+      escreva(Resultado)
+   fimse
+
+fimalgoritmo
