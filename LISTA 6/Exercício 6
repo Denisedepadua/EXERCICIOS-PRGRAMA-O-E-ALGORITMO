@@ -1,0 +1,13 @@
+algoritmo "lista06_ex06"
+
+var
+   N: inteiro
+
+inicio
+   leia(N)
+
+   se N < 10 entao
+      escreva(N)
+   fimse
+
+fimalgoritmo
