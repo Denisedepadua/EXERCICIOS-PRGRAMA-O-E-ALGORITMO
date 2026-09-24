@@ -1,0 +1,19 @@
+algoritmo "lista03_ex10"
+
+var
+   N, I, Resultado: inteiro
+
+inicio
+   leia(N)
+
+   se N < 10 entao
+      I <- 0
+
+      enquanto I <= 10 faca
+         Resultado <- N * I
+         escreva(Resultado)
+         I <- I + 1
+      fimenquanto
+   fimse
+
+fimalgoritmo
