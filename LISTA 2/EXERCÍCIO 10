@@ -1,0 +1,20 @@
+algoritmo "lista02_ex10"
+
+var
+   N, Resultado, A, B: real
+
+inicio
+   leia(N)
+
+   Resultado <- N / 2
+
+   A <- Resultado
+   B <- Resultado
+
+   A <- A + 3
+   B <- B + 5
+
+   escreva(A)
+   escreva(B)
+
+fimalgoritmo
