@@ -1,0 +1,26 @@
+algoritmo "lista04_ex10"
+
+var
+   N1, N2, Menor, Maior, Resultado: inteiro
+
+inicio
+   leia(N1)
+   leia(N2)
+
+   se N1 < N2 entao
+      Menor <- N1
+      Maior <- N2
+   senao
+      Menor <- N2
+      Maior <- N1
+   fimse
+
+   Resultado <- (Menor * 10) + (Maior / 2)
+
+   se Resultado % 2 = 0 entao
+      escreva("O resultado e par")
+   senao
+      escreva("O resultado e impar")
+   fimse
+
+fimalgoritmo
