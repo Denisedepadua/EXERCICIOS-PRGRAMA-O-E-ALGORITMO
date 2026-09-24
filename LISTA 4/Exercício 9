@@ -1,0 +1,24 @@
+algoritmo "lista04_ex09"
+
+var
+   N1, N2, N3, N4: inteiro
+   Resultado1, Resultado2, Resultado: inteiro
+
+inicio
+   leia(N1)
+   leia(N2)
+   leia(N3)
+   leia(N4)
+
+   Resultado1 <- N1 + N2
+   Resultado2 <- N3 - N4
+
+   Resultado <- Resultado1 + Resultado2
+
+   se Resultado > 10 entao
+      escreva("Resultado maior que dez")
+   senao
+      escreva("Resultado menor ou igual a dez")
+   fimse
+
+fimalgoritmo
