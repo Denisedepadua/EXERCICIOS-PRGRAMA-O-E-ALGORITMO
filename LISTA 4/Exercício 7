@@ -1,0 +1,33 @@
+algoritmo "lista04_ex07"
+
+var
+   N1, N2, N3, Aux: inteiro
+
+inicio
+   leia(N1)
+   leia(N2)
+   leia(N3)
+
+   se N1 > N2 entao
+      Aux <- N1
+      N1 <- N2
+      N2 <- Aux
+   fimse
+
+   se N1 > N3 entao
+      Aux <- N1
+      N1 <- N3
+      N3 <- Aux
+   fimse
+
+   se N2 > N3 entao
+      Aux <- N2
+      N2 <- N3
+      N3 <- Aux
+   fimse
+
+   escreva(N1)
+   escreva(N2)
+   escreva(N3)
+
+fimalgoritmo
