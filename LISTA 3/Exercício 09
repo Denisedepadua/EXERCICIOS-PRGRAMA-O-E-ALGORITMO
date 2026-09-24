@@ -1,0 +1,15 @@
+algoritmo "lista03_ex09"
+
+var
+   N, Resultado: real
+
+inicio
+   leia(N)
+
+   Resultado <- N / 2
+
+   se Resultado > 20 entao
+      escreva(Resultado)
+   fimse
+
+fimalgoritmo
