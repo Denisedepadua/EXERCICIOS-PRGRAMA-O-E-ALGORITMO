@@ -1,0 +1,15 @@
+algoritmo "lista02_ex05"
+
+var
+   NUM1, NUM2, Resultado1, Resultado2: inteiro
+
+inicio
+   leia(NUM1)
+   leia(NUM2)
+
+   Resultado1 <- NUM1 - NUM2
+   Resultado2 <- Resultado1 + 10
+
+   escreva(Resultado2)
+
+fimalgoritmo
