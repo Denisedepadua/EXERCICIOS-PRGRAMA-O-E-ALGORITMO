@@ -1,0 +1,17 @@
+algoritmo "lista02_ex07"
+
+var
+   N, I, Resultado: inteiro
+
+inicio
+   leia(N)
+
+   I <- 0
+
+   enquanto I <= 10 faca
+      Resultado <- N * I
+      escreva(Resultado)
+      I <- I + 1
+   fimenquanto
+
+fimalgoritmo
