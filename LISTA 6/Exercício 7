@@ -1,0 +1,17 @@
+algoritmo "lista06_ex07"
+
+var
+   N1, N2: inteiro
+
+inicio
+   leia(N1)
+   leia(N2)
+
+   se N1 > 10 entao
+      se N2 < 5 entao
+         escreva(N1)
+         escreva(N2)
+      fimse
+   fimse
+
+fimalgoritmo
