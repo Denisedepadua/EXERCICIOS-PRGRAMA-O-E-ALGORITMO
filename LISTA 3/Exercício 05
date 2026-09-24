@@ -1,0 +1,15 @@
+algoritmo "lista03_ex05"
+
+var
+   N1, N2: inteiro
+
+inicio
+   leia(N1)
+   leia(N2)
+
+   se (N1 + N2) < 20 entao
+      escreva(N1 * 10)
+      escreva(N2 * 10)
+   fimse
+
+fimalgoritmo
